@@ -30,3 +30,6 @@ if test -f /etc/wsl.conf; then
 	sudo rm /etc/wsl.conf
 fi
 sudo cp ./conf_files/wsl.conf /etc/wsl.conf
+
+# Set git url to propper SSH url
+git remote set-url origin git@github.com:robbymoses/wsl_config.git
