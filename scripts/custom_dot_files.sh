@@ -1,4 +1,4 @@
-git clone git@github.com:robbymoses/linux_config_files.git ~/
+git clone git@github.com:robbymoses/custom_dot_files.git ~/custom_dot_files
 
 # ZSH
 ln -s ~/custom_dot_files/zsh/.zshrc ~/.zshrc
