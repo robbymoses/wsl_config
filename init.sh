@@ -33,3 +33,6 @@ sudo cp ./conf_files/wsl.conf /etc/wsl.conf
 
 # Set git url to propper SSH url
 git remote set-url origin git@github.com:robbymoses/wsl_config.git
+
+# Shutdown WSL
+wsl.exe --shutdown
