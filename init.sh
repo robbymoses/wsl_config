@@ -22,3 +22,15 @@ if ! test -f ~/.gitconfig; then
 	# Set the remote URL of this repo to use SSH
 	git remote set-url origin git@github.com:robbymoses/wsl_config.git
 fi
+
+# Change Default Shell
+chsh -s /bin/zsh ${USER}
+
+# Modify wsl.conf
+if ! test -f /etc/wsl.conf; then
+	sudo mv ./config_files/wsl.conf /etc/wsl.conf
+fi
+
+# Shutdown WSL
+#wsl.exe --shutdown
+
